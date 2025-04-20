@@ -30,25 +30,25 @@ O código está estruturado com clareza e foco em boas práticas. Principais ele
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/contact-manager-kotlin.git
+   git clone https://github.com/Filipe-Gois/contact_manager.git
    cd contact-manager-kotlin
 
 2. Abra o projeto em uma IDE como IntelliJ IDEA ou use o Kotlin Playground
 
 3. Execute o arquivo Main.kt
 
-📚 Aprendizados
+## 📚 Aprendizados
 Este projeto reforça os seguintes conceitos:
 
-Uso de data class e encapsulamento
+- Uso de data class e encapsulamento
 
-Manipulação de listas e funções funcionais (map, filter, firstOrNull, etc.)
+- Manipulação de listas e funções funcionais (map, filter, firstOrNull, etc.)
 
-Boas práticas com null safety
+- Boas práticas com null safety
 
-Criação de funções reutilizáveis e expressivas
+- Criação de funções reutilizáveis e expressivas
 
-Sintaxe idiomática do Kotlin
+- Sintaxe idiomática do Kotlin
 
-🤝 Contribuição
+## 🤝 Contribuição
 Sinta-se à vontade para dar sugestões ou abrir issues com melhorias! Este é um projeto de aprendizado e prática contínua.
