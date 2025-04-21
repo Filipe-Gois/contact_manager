@@ -23,7 +23,7 @@ O projeto simula um pequeno sistema de agenda de contatos em memória, onde é p
 1. Clone este repositório:
    ```bash
    git clone https://github.com/Filipe-Gois/contact_manager.git
-   cd contact-manager-kotlin
+   cd contact_manager
 
 2. Abra o projeto em uma IDE como IntelliJ IDEA ou use o Kotlin Playground
 
