@@ -1,7 +1,7 @@
 package com.contactmanager.ui
 
 import com.contactmanager.data.dtos.contacts.CreateContactDTO
-import com.contactmanager.data.dtos.contacts.UpdateContactDTO
+import com.contactmanager.data.dtos.contacts.ViewContactDTO
 import com.contactmanager.repositories.contactmanager.ContactManagerRepository
 
 class Menu {
@@ -78,8 +78,8 @@ class Menu {
                     println("Informe o número do contato")
                     var phoneNumber = readln()
 
-                    val contact = UpdateContactDTO(name = name, phoneNumber = phoneNumber)
-                    manager.updateContactData(contactId = id, updateContactDTO = contact)
+                    val contact = ViewContactDTO(name = name, phoneNumber = phoneNumber, contactId = id)
+                    manager.updateContactData(updateContactDTO = contact)
 
                     println("Contato atualizado com sucesso!")
 
